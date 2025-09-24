@@ -250,7 +250,7 @@ def min_CAD_coins(price,payment):
     d = amount // 10
     amount=amount% 10
     n = amount // 5
-    amount=amount% 5
+    amount=amount% 10
     return(t,l,q,d,n)
 
     
