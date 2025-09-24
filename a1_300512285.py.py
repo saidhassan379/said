@@ -4,7 +4,7 @@
 def mh2kh(s):
     """(float)-> float
     Converts a speed s from miles/hour to kilometres/hour.
-    Precondition: s is a non-negative number.
+    Precondition: s is a non-negative numbers.
     """
     
     return (s*1.60934)
@@ -254,3 +254,4 @@ def min_CAD_coins(price,payment):
     return(t,l,q,d,n)
 
     
+
